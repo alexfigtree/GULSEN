@@ -5,7 +5,7 @@ $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 $field_reference = $_POST['cf_reference'];
 
-$mail_to = 'alexandra.higuera@gmail.com';
+$mail_to = 'gulsenapps@gmail.com';
 $subject = 'Message from a GULSEN visitor '.$field_first_name.' '.$field_last_name;
 
 $body_message = 'From: '.$field_first_name."\n";
